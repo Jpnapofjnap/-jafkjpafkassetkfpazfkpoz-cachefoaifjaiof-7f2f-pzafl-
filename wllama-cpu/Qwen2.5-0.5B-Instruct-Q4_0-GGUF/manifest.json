@@ -1,0 +1,10 @@
+{
+  "sourceModel": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+  "sourceFile": "qwen2.5-0.5b-instruct-q4_0.gguf",
+  "license": "apache-2.0",
+  "quantization": "Q4_0",
+  "totalBytes": 428730208,
+  "sha256": "7671c0c304e6ce5a7fc577bcb12aba01e2c155cc2efd29b2213c95b18edaf6ed",
+  "parts": ["part_0", "part_1", "part_2", "part_3", "part_4", "part_5"],
+  "note": "Fichier GGUF original decoupe en morceaux <100 Mo (limite Git) par split -b 80m. La concatenation exacte des parts dans cet ordre reproduit l'octet-pour-octet le fichier gguf officiel (verifie par sha256 avant publication)."
+}
